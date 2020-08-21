@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.sqldelight:jdbc-driver:1.3.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/jdbc-driver/1.3.0/9c67cc4ad677d94b699d63bf2a2259d83f116b95/jdbc-driver-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/jdbc-driver/1.3.0/b9326cdd3bdd739c023d409a315a19859ffe292c/jdbc-driver-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/jdbc-driver/1.3.0/87f1dd41a5fbba6cd053215681c5292742e282d/jdbc-driver-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

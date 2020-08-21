@@ -1,0 +1,1 @@
+ALTER TABLE itemInCart ADD COLUMN brand TEXT;
