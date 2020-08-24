@@ -27,18 +27,21 @@ class CustomAdapter(private val items: List<ItemInCart>) : RecyclerView.Adapter<
             private var mLabelView: TextView? = null
             private var mQuantityView: TextView? = null
         private var mLinkView: TextView? = null
+        private var mBrandView: TextView? = null
 
 
             init {
                 mLabelView = itemView.findViewById(R.id.item_label)
                 mQuantityView = itemView.findViewById(R.id.item_quantity)
                 mLinkView = itemView.findViewById(R.id.item_link)
+                mBrandView = itemView.findViewById(R.id.item_brand)
             }
 
             fun bind(item: ItemInCart) {
                 mLabelView?.text = "Label : " + item.label
                 mQuantityView?.text = "Quantity : " + item.quantity.toString()
                 mLinkView?.text = "Link : " + item.link
+                mBrandView?.text = "Brand : " + item.brand
             }
     }
 }

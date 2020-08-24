@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     val DB_NAME = "item.db"
-    val DB_VERSION = 1
+    val DB_VERSION = 2
 
     private lateinit var linearLayoutManager: LinearLayoutManager
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +44,8 @@ class MainActivity : AppCompatActivity() {
                 label = "Item $i",
                 image = "https://localhost/item$i.png",
                 quantity = i.toLong(),
-                link = null
+                link = null,
+                brand = "Brand $i"
             )
         }
 
